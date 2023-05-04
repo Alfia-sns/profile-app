@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+.section {
+	width: 100%;
+	min-height: 100vh;
+}
+body{
+	background: lightgrey;
+	color: black;
+	width: 960;}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 22px 15%;
+	border-bottom: 1px solid transparent;
+	transition: all .45s ease;
+}
+.logo{
+	color: black;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.navlist{
+	display: flex;
+}
+.navlist a{
+	color: whitesmoke;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0 25px;
+	transition: all .45s ease;
+}
+.navlist a:hover{
+	color: black;
+}
+.navlist a.active{
+	color: black;
+}
+#menu-icon{
+	font-size: 35px;
+	color: white;
+	z-index: 10001;
+	cursor: pointer;
+	margin-left: 25px;
+	display: none;
+}
+section{
+	padding: 160px 15% 120px;
+}
+.home{
+	position: static;
+	height: 75vh;
+	width: 100%;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+.slide{
+	margin-bottom: 20px;
+}
+.one{
+	display: inline-block;
+	margin-right: 15px;
+	height: 32px;
+	padding: 0 15px;
+	line-height: 32px;
+	font-size: 20px;
+	border-radius: 5px;
+	background: saddlebrown;
+	color: white;
+}
+.home-text h1{
+	font-size: 4em;
+	font-weight: 700;
+	list-style: 1.1;
+	margin: 0 0 8px;
+}
+.btn {
+	background-color: white;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+.featured-image {
+	width: 300px;
+	height: 400px;
+	padding:10px;
+    border:1px solid #FAEBD7;
+	float: left;
+}
+p::first-letter {
+           font-size: 32px;
+           font-weight: bold;
+           color: black;
+}
+aside {
+  float: right;
+  width: 60%;
+  padding-left: 90px;
+}
+.social-media {
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+a.social-media:hover{
+    background: #fff!important;
+    color: #222!important;
+}
+footer {
+	width: 100%;
+}
+.content-project {
+	text-align: center;
+}
+.landing {
+	width: 200px;
+	height: 450px;
+}
+.dashboard {
+	width: 500px;
+	height: 400px;
+}
+.shop {
+	width: 200px;
+	height: 450px;
+}
